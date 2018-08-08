@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a7528bd-a47b-413d-92da-1004bee6bb9c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/net/sajeesh/search/BinarySearch.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/sajeesh/sort/MergeSort.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,11 +24,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinarySearch.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinarySearch.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/sajeesh/search/BinarySearch.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="22" column="21" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="21" />
+            <state relative-caret-position="238">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MergeSort.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/net/sajeesh/sort/MergeSort.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -44,6 +53,7 @@
         <option value="$PROJECT_DIR$/src/net/sajeesh/sort/InsertionSort.scala" />
         <option value="$PROJECT_DIR$/src/net/sajeesh/sort/MedianSort.scala" />
         <option value="$PROJECT_DIR$/src/net/sajeesh/search/BinarySearch.scala" />
+        <option value="$PROJECT_DIR$/src/net/sajeesh/sort/MergeSort.scala" />
       </list>
     </option>
   </component>
@@ -84,7 +94,7 @@
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sajeesh" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -113,7 +123,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="net.sajeesh.search.BinarySearch" />
       <module name="Algorithms" />
@@ -127,6 +137,17 @@
     </configuration>
     <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="net.sajeesh.sort.InsertionSort" />
+      <module name="Algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.sajeesh.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="net.sajeesh.sort.MergeSort" />
       <module name="Algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -187,9 +208,11 @@
       <item itemvalue="Application.InsertionSort" />
       <item itemvalue="Scala Console.Scala Console" />
       <item itemvalue="Application.BinarySearch" />
+      <item itemvalue="Application.MergeSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Scala Console.Scala Console" />
         <item itemvalue="Application.InsertionSort" />
@@ -263,8 +286,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/sajeesh/search/BinarySearch.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="21" />
+        <state relative-caret-position="238">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/sajeesh/sort/MergeSort.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
